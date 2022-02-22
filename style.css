@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  list-style: none;
+  text-decoration: none;
+}
+
+li,
+a,
+button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #eaeffc;
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  display: flexbox;
+}
+
+body {
+  background-image: ;
+}
+
+.logo {
+  cursor: pointer;
+  height: 90%;
+  display: table-cell;
+  float: left;
+  vertical-align: middle;
+}
+
+nav {
+  width: 1500px;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.nav-links {
+  list-style: none;
+  float: right;
+  height: 100%;
+}
+
+.nav-links li {
+  transition: all 0.3s ease 0s;
+  display: table;
+  float: left;
+  padding: 0px 20px;
+  height: 100%;
+}
+
+.nav-links li a {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.nav-links li:nth-child(1) {
+  padding: 0 20px 0 0;
+}
+
+.nav-links li a:hover {
+  color: #0088a9;
+}
+
+button {
+  margin-left: 20px;
+  padding: 9px 25px;
+  background-color: #0088a9;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  float: right;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+button:hover {
+  background-color: #016b86;
+}
+
+div {
+  min-height: 100vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  color: #eaeffc;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 100px;
+  margin-left: 10%;
+  font-size: 45px;
+}
+
+.intro {
+  color: #eaeffc;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 10%;
+  padding-top: 25px;
+}
+
+.bkn {
+  align-items: center;
+  float: left;
+  margin-left: 47%;
+}
+
+.h2wout {
+  margin-left: 10%;
+}
+
+.wbox1 {
+  background-color: #0088a9;
+  font-size: 2rem;
+  margin: 70px;
+  height: 600px;
+  width: 400px;
+  display: table-cell;
+  margin: bottom;
+}
+
+.wb1t {
+  background-color: #0088a9;
+  font-size: 20px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.wbox2 {
+  background-color: #0088a9;
+  font-size: 2rem;
+  margin: 70px;
+  height: 600px;
+  width: 400px;
+  display: table-cell;
+}
+
+.wbox3 {
+  background-color: #0088a9;
+  font-size: 2rem;
+  margin: 70px;
+  height: 600px;
+  width: 400px;
+  display: table-cell;
+}
+
+.coachingbox {
+  background-color: #0088a9;
+  font-family: "Montserrat", sans-serif;
+  margin: 70px;
+  font-size: 1.5rem;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+  width: 900px;
+  height: 400px;
+  float: right;
+}
+
+.textcoaching {
+  background-color: #0088a9;
+  font-family: "Montserrat", sans-serif;
+  margin: 70px;
+  font-size: 1.5rem;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 900px;
+  height: 400px;
+  float: right;
+}
+
+.h3coaching {
+  font-size: 2rem;
+  background-color: #0088a9;
+}
+
+.contactinfo {
+  margin-left: 10%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  background-color: #0088a9;
+  height: 100px;
+  width: 400px;
+  display: inline-block;
+  padding: 70px;
+}
+
+.h3contact {
+  margin-bottom: 10%;
+  font-size: 2rem;
+  background-color: #0088a9;
+}
+
+.phone {
+  background-color: #0088a9;
+}
+
+.email {
+  background-color: #0088a9;
+}
