@@ -131,7 +131,7 @@ button:hover {
 }
 
 #div2img {
-  background-image: url("/ropes1.jpg");
+  background-image: url("ropes1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 900px;
@@ -140,7 +140,7 @@ button:hover {
 }
 
 #div3img {
-  background-image: url("/bucice.jpg.jpg");
+  background-image: url("bucice.jpg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 900px;
